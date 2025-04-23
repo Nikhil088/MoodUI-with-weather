@@ -1,0 +1,56 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.mood-picker button {
+  margin: 1rem 0.5rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Mood Themes */
+.mood-happy {
+  background-color: #fff6b7;
+  color: #333;
+}
+
+.mood-sad {
+  background-color: #a3c4f3;
+  color: #1c1c1c;
+}
+
+.mood-anxious {
+  background-color: #f6b8b8;
+  color: #2f2f2f;
+}
+
+.mood-motivated {
+  background-color: #c8f7c5;
+  color: #202020;
+}
+
+/* Night Mode */
+.night-mode {
+  background-color: #1e1e2f !important;
+  color: #eee !important;
+}

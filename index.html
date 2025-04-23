@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoodUI – Emotion-Aware Portfolio</title>
+    <link rel="stylesheet" href="psy-style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="greeting">Welcome to MoodUI</h1>
+      <p id="quote">How are you feeling today?</p>
+
+      <div class="mood-picker">
+        <button onclick="setMood('happy')">😊 Happy</button>
+        <button onclick="setMood('sad')">😔 Sad</button>
+        <button onclick="setMood('anxious')">😰 Anxious</button>
+        <button onclick="setMood('motivated')">💪 Motivated</button>
+        <button onclick="resetMood()">🔄 Reset</button>
+      </div>
+      <div id="weather" style="margin: 20px; font-size: 1.1em"></div>
+    </div>
+
+    <script src="psy.js"></script>
+  </body>
+</html>
